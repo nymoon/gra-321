@@ -1,6 +1,7 @@
 *
 body {
   background-color: lightblue;
+  text-indent: 100px
 }
 
 h1 {
@@ -11,4 +12,8 @@ h1 {
 p {
   font-family: calibri;
   font-size: 30px;
+}
+
+li {
+	font-size: 20px
 }
