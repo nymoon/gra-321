@@ -1,19 +1,18 @@
 *
 body {
   background-color: lightblue;
-  text-indent: 100px
-  font-size: 30px
+  text-indent: 100px;
+  font-size: 30px;
+}
+body.hidden {
+	border-spacing: 50px;
 }
 
 h1 {
-  color: black;
+  color: darkblue;
 }
 
 p {
   font-family: calibri;
   font-size: 30px;
-}
-
-li {
-
 }
