@@ -2,16 +2,19 @@
 body {
   background-color: lightblue;
   font-size: 30px;
-  text-indent: 50px;
+  text-indent: 100px;
 }
 
 h1 {
   color: white;
-  text-indent: 50px;
+  text-indent: 100px;
 }
 
 p {
   font-family: calibri;
   font-size: 30px;
-  text-indent: 50px;
+  text-indent: 100px;
+}
+ul{
+  text-indent: 100px;
 }
