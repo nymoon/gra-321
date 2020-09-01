@@ -24,4 +24,5 @@ ul {
 
 a:hover {
   color: darkblue;
+  font-style: italic;
 }
