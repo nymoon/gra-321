@@ -21,3 +21,7 @@ ul {
   text-indent: 100px;
   font-size: 30px;
 }
+
+a:hover {
+  color: darkblue;
+}
