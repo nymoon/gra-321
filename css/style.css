@@ -5,7 +5,8 @@ body {
 }
 
 h1 {
-  color: darkblue;
+  color: white;
+  margin-left: 20px;
 }
 
 p {
@@ -15,7 +16,7 @@ p {
 }
 
 li {
-    margin: 0;
+    margin: 20px;
     margin-bottom: 20px;
     padding-left: 50px;
     position: relative;
