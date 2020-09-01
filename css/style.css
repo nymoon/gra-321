@@ -1,8 +1,6 @@
 *
 body {
   background-color: lightblue;
-  font-size: 30px;
-  text-indent: 100px;
 }
 
 h1 {
@@ -12,7 +10,6 @@ h1 {
 
 p {
   font-family: calibri;
-  font-size: 20px;
   text-indent: 100px;
 }
 
