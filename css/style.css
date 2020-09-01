@@ -3,9 +3,6 @@ body {
   background-color: lightblue;
   font-size: 30px;
 }
-body.hidden {
-	border-spacing: 50px;
-}
 
 h1 {
   color: darkblue;
