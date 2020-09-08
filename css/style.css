@@ -26,6 +26,6 @@ a:hover {
   color: darkblue;
   font-style: italic;
 }
-.image{
+div.image{
   background:url(https://nymoon.github.io/gra-321/code-exercises/img/bathroom.png);
 }
