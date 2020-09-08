@@ -32,3 +32,15 @@ a:hover {
   width: 1000px;
   margin-left: 50px;
 }
+
+@media screen and (max-width: 1000px) { 
+  body { 
+    background-color: lightgreen;
+}
+}
+
+@media screen and (max-width: 500px) { 
+  body { 
+    background-color: lightgrey;
+}
+}
