@@ -28,7 +28,7 @@ a:hover {
 }
 
 .imagebg{
-  background: url(./code-exercises/img/bathroom.png);
+  background-image: url(./code-exercises/img/bathroom.png);
   background-size: cover;
   height:700px;
   margin: 50;
