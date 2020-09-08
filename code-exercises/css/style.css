@@ -15,9 +15,5 @@ p {
   font-family: calibri;
   text-indent: 100px;
   font-size: 30px;
-}
-
-ul{
-  text-indent: 100px;
-  font-size: 20px;
+  margin-left: 100px;
 }
