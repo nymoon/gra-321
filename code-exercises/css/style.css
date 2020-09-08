@@ -25,7 +25,4 @@ a:hover {
 .imagebg{
   background-image: url(https://nymoon.github.io/gra-321/code-exercises/img/bathroom.png);
   background-size: cover;
-  height:700px;
-  margin: 50;
-  width:700px;
 }
