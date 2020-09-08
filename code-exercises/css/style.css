@@ -1,7 +1,7 @@
 *
 body {
   margin-top: 100px;
-  background-color: lightblue;
+  background-image: url(code-exercises/img/bathroom.png);
 }
 
 h1 {
@@ -20,8 +20,4 @@ p {
 
 a:hover {
   color: black;
-}
-
-.image{
-  background: url(code-exercises/img/bathroom.png);
 }
