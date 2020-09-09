@@ -1,6 +1,6 @@
 body {
-	margin-top: 100px;
-  background-color: lightblue;
+  margin-top: 100px;
+  background:lightblue;
 }
 
 h1 {
@@ -14,22 +14,34 @@ p {
   font-family: calibri;
   text-indent: 100px;
   font-size: 30px;
+  margin-left: 100px;
 }
-
-ul {
-  text-indent: 100px;
-  font-size: 30px;
+.Ex-2{
+color: black;
 }
 
 a:hover {
-  color: darkblue;
-  font-style: italic;
+  color: black;
 }
 
-div.imagebg{
+.imagebg{
   background-image: url(https://nymoon.github.io/gra-321/code-exercises/img/bathroom.png);
   background-size: cover;
-  height:700px;
-  margin: 50;
-  width:700px;
+  height: 1000px;
+  width: 1000px;
+  margin-left: 50px;
+}
+
+.ex-3{
+  @media screen and (max-width: 500px) { 
+    body { 
+      background-color: lightgrey;
+  }
+  }
+
+  @media screen and (max-width: 500px) { 
+    body { 
+      background-color: lightgrey;
+}
+}
 }
