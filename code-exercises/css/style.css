@@ -35,11 +35,6 @@ a:hover {
 @-ms-viewport{
   width: device-width;
 }
-  @media only screen and (max-width: 500px) { 
-    body { 
-      background-color: lightgrey;
-  }
-  }
 
   @media only screen and (max-width: 500px) { 
     body { 
