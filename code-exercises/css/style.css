@@ -1,4 +1,3 @@
-*
 body {
   margin-top: 100px;
   background:lightblue;
@@ -33,14 +32,16 @@ a:hover {
   margin-left: 50px;
 }
 
-@media screen and (max-width: 1000px) { 
-  body { 
-    background-color: lightgreen;
-}
-}
+.ex-3{
+  @media screen and (max-width: 500px) { 
+    body { 
+      background-color: lightgrey;
+  }
+  }
 
-@media screen and (max-width: 500px) { 
-  body { 
-    background-color: lightgrey;
+  @media screen and (max-width: 500px) { 
+    body { 
+      background-color: lightgrey;
+}
 }
 }
