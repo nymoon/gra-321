@@ -40,7 +40,7 @@ a:hover {
 }
 .override {
   margin-top: none;
-  background-color: white;
+  background: white;
 }
 
 @-ms-viewport{
