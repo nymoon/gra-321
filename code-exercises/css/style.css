@@ -32,6 +32,11 @@ a:hover {
   margin-left: 50px;
 }
 
+.layoutbg{
+  background-image: url(https://nymoon.github.io/gra-321/code-exercises/img/layoutmockup.jpg);
+  background-size: cover;
+}
+
 @-ms-viewport{
   width: device-width;
 }
