@@ -38,6 +38,9 @@ a:hover {
   height: 1080px;
   width: 1920px;
 }
+.override {
+  background-color: white;
+}
 
 @-ms-viewport{
   width: device-width;
