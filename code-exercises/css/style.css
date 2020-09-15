@@ -39,6 +39,7 @@ a:hover {
   width: 1920px;
 }
 .override {
+  margin-top: none;
   background-color: white;
 }
 
