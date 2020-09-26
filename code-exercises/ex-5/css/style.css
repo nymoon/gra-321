@@ -1,0 +1,57 @@
+body {
+  margin-top: 100px;
+  background:lightblue;
+}
+
+h1 {
+  color: white;
+  text-indent: 100px;
+  font-size: 50px;
+  font-style: italic;
+}
+
+p {
+  font-family: calibri;
+  text-indent: 100px;
+  font-size: 30px;
+  margin-left: 100px;
+}
+.Ex-2{
+color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+.imagebg{
+  background-image: url(https://nymoon.github.io/gra-321/code-exercises/img/bathroom.png);
+  background-size: cover;
+  height: 1000px;
+  width: 1000px;
+  margin-left: 50px;
+}
+
+.layout{
+  height: 540px;
+  width: 960px;
+}
+.mockups{
+  height: 840px;
+  width: 320px;
+}
+.override {
+  margin-top: none;
+  background: white;
+}
+
+@-ms-viewport{
+  width: device-width;
+}
+
+  @media only screen and (max-width: 500px) { 
+    body { 
+      background-color: lightgrey;
+}
+}
+
