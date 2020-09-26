@@ -82,11 +82,22 @@ p {
 }
 
 .footer {
-  padding: 37px;
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  flex: 1;
+  flex-wrap: wrap;
+
   }
+.url{
+width: 10%;
+}
+.pnum{
+  width: 4%;
+}
 
 @media screen and (max-width: 320px) {
-  .flexbox-container {   
-    flex-direction: column;
+  .flexbox-container, .column, .footer{
+      flex-direction: column;
   }
-}
+  }
