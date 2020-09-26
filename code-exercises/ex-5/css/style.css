@@ -71,7 +71,11 @@ p {
 .column2{
   width: calc(100% * (1/2) - 35px - 1px);
   }
-
+.footer{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
 .url{
 width: 10%;
 }
@@ -80,12 +84,12 @@ width: 4%;
 }
 
 @media screen and (max-width: 320px) {
-  .flexbox-container,{
+  .flexbox-container, .column{
       flex-direction: column;
   }
   }
   @media screen and (max-width: 320px) {
-  .column{
-      flex-direction: column;
+  .footer{
+      flex-direction: row;
   }
   }
