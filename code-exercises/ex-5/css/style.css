@@ -71,7 +71,7 @@ p {
   }
 
 .column2{
-  width: 40%;
+  width: 100%;
   }
 
 .url{
@@ -82,7 +82,12 @@ width: 4%;
 }
 
 @media screen and (max-width: 320px) {
-  .flexbox-container, .column, .footer{
+  .flexbox-container,{
       flex-direction: column;
+  }
+  }
+  @media screen and (max-width: 320px) {
+  .column{
+      flex-direction: row;
   }
   }
