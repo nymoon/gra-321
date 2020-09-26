@@ -87,7 +87,7 @@ p {
 
 .url{
 width:calc(100% * (1/2) - 200px - 1px) ;
-background-color: lightblue;
+background-color: lightgreen;
 }
 .pnum{
 width: calc(100% * (1/2) - 200px - 1px);
