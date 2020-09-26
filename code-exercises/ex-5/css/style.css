@@ -65,11 +65,11 @@ p {
   flex: 1;
   }
 .column1{
-  width: calc(100% * (1/2) - 35px - 1px);
+  width: calc(100% * (1/2) - 10px - 1px);
   }
 
 .column2{
-  width: calc(100% * (1/2) - 35px - 1px);
+  width: calc(100% * (1/2) - 10px - 1px);
   }
 
 .footer{
