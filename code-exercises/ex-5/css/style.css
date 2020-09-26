@@ -40,7 +40,6 @@ p {
   display: flex;
   justify-content: center;
   align-content: center;
-  flex-direction: column;
 }
 
 .h1 {
@@ -78,8 +77,8 @@ p {
   padding: 37px;
   }
 
-@media screen and (max-width: 700px) {
-  .row {   
+@media screen and (max-width: 320px) {
+  .flexbox-container {   
     flex-direction: column;
   }
 }
