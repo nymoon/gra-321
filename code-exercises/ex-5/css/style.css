@@ -62,8 +62,9 @@ p {
 .column{
   display: flex;
   flex-direction: row;
-  flex: 1;
-  }
+  justify-content: left;
+  align-content: left;
+   }
 .column1{
   width: calc(100% * (1/2) - 10px - 1px);
   }
@@ -75,7 +76,8 @@ p {
 .footer{
   display: flex;
   flex-direction: row;
-  flex: 1;
+  justify-content: left;
+  align-content: left;
 }
 .url{
 width: 10%;
