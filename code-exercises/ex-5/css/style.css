@@ -61,6 +61,8 @@ p {
 
 .column{
   display: flex;
+  flex-direction: row;
+  flex: 1;
   }
 .column1{
   width: 40%;
