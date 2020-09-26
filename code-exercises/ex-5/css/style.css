@@ -60,11 +60,23 @@ p {
 }
 
 .column{
+  min-height: 100%;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
-  justify-content: left;
-  align-content: left;
-   }
+}
+.column > div {
+  display: flex; 
+  flex-basis: calc(50% - 40px);  
+  justify-content: center;
+  flex-direction: column;
+}
+.column > div > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
 .column1{
   width: calc(100% * (1/2) - 10px - 1px);
   }
@@ -73,12 +85,6 @@ p {
   width: calc(100% * (1/2) - 10px - 1px);
   }
 
-.footer{
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  align-content: left;
-}
 .url{
 width: 10%;
 }
