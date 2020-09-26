@@ -78,19 +78,19 @@ p {
 }
 
 .column1{
-  width: calc(100% * (1/2) - 10px - 1px);
+  width: calc(100% * (1/2) - 30px - 1px);
   }
 
 .column2{
-  width: calc(100% * (1/2) - 10px - 1px);
+  width: calc(100% * (1/2) - 30px - 1px);
   }
 
 .url{
-width: 10%;
+width:calc(100% * (1/2) - 200px - 1px) ;
 background-color: lightblue;
 }
 .pnum{
-width: 4%;
+width: calc(100% * (1/2) - 200px - 1px);
 align-content: right;
 }
 
