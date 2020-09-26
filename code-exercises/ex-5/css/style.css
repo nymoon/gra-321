@@ -72,7 +72,25 @@ p {
 .column2{
   width: calc(100% * (1/2) - 30px - 1px);
   }
+.column {
+  display: flex;
+  justify-content: space-between;
+}
+.column .column1 .column2 {
+  flex: 1;
+  width: 40%;
+}
 
+
+@media (max-width: 400px) {
+  .column {
+    display: block;
+    .column1 .column2 {
+      width: 100%;
+      margin: 0 0 30px 0;
+    }
+  }
+}
 
 @media screen and (max-width: 320px) {
   .flexbox-container, .column{
