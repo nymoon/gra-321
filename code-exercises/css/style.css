@@ -32,11 +32,13 @@ a:hover {
   margin-left: 50px;
 }
 
-.layoutbg{
-  background-image: url(https://nymoon.github.io/gra-321/code-exercises/img/layoutmockup.jpg);
-  background-size: cover;
-  height: 1080px;
-  width: 1920px;
+.layout{
+  height: 540px;
+  width: 960px;
+}
+.mockups{
+  height: 840px;
+  width: 320px;
 }
 .override {
   margin-top: none;
