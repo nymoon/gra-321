@@ -42,6 +42,12 @@ p {
   flex-direction: column;
   }
 
+.img {
+  width: 100%;
+  height: 31%;
+  align-content: center;
+}
+
 .h1 {
   flex: 70%;
   width: 100%;
@@ -53,32 +59,24 @@ p {
   width: 60%;
   height: 41px;
   padding-top: 17.5px;
+  padding-bottom: 17.5px;
 }
 
 .column{
   display: flex;
   flex-direction: row;
   flex-basis: 100%;
-  flex: 2;
+  flex: 1;
   flex-wrap: wrap;
 }
 .column1{
   width: 40%;
   height: 115px;
-  padding-top: 17.5px;
-  padding-right: 35px;
 }
 
 .column2{
   width: 40%;
   height: 115px;
-  padding-top: 17.5px;
-}
-
-.img {
-  width: 100%;
-  height: 31%;
-  align-content: center;
 }
 
 .url{
