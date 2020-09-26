@@ -2,7 +2,7 @@ body{
   margin-top: 1.8%;
   margin-right: 26.1%;
   margin-left: 26.1%;
-  margin-bottom: .6%;
+  margin-bottom: 1.8%;
 
 }
 
@@ -71,6 +71,7 @@ p {
 .column2{
   width: calc(100% * (1/2) - 35px - 1px);
   }
+
 .footer{
   display: flex;
   flex-direction: row;
