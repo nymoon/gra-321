@@ -8,7 +8,7 @@ body{
 
 h1 {
   font-family: neue haas grotesk, arial, sans-serif;
-  font-weight: medium;
+  font-weight: bold;
   font-size: 28px;
   line-height:33px;
   font color: black;
@@ -40,7 +40,8 @@ p {
   display: flex;
   justify-content: center;
   align-content: center;
-}
+  flex-direction: column;
+  }
 
 .h1 {
   flex: 70%;
@@ -55,6 +56,13 @@ p {
   padding-top: 17.5px;
 }
 
+.column{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  flex-wrap: wrap;
+}
 .column1{
   width: 40%;
   height: 115px;
