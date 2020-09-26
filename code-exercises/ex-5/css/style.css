@@ -39,7 +39,7 @@ p {
   display: flex;
   justify-content: center;
   align-content: center;
-  flex-direction: row;
+  flex-direction: column;
   }
 
 .h1 {
@@ -57,7 +57,7 @@ p {
 
 .column{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-basis: 100%;
   flex: 2;
   flex-wrap: wrap;
@@ -81,19 +81,11 @@ p {
   align-content: center;
 }
 
-.footer {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 2;
-  flex-wrap: wrap;
-
-  }
 .url{
 width: 10%;
 }
 .pnum{
-  width: 4%;
+width: 4%;
 }
 
 @media screen and (max-width: 320px) {
