@@ -67,7 +67,6 @@ p {
   flex-direction: row;
   flex-basis: 100%;
   flex: 1;
-  flex-wrap: wrap;
 }
 .column1{
   width: 40%;
