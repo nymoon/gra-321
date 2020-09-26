@@ -62,18 +62,6 @@ p {
 .column{
   min-height: 100%;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-.column > div {
-  display: flex; 
-  flex-basis: calc(50% - 40px);  
-  justify-content: center;
-  flex-direction: column;
-}
-.column > div > div {
-  display: flex;
-  justify-content: center;
   flex-direction: row;
 }
 
@@ -85,22 +73,10 @@ p {
   width: calc(100% * (1/2) - 30px - 1px);
   }
 
-.url{
-width:calc(100% * (1/2) - 200px - 1px) ;
-background-color: lightgreen;
-}
-.pnum{
-width: calc(100% * (1/2) - 200px - 1px);
-align-content: right;
-}
 
 @media screen and (max-width: 320px) {
   .flexbox-container, .column{
       flex-direction: column;
   }
   }
-  @media screen and (max-width: 320px) {
-  .footer{
-      flex-direction: row;
-  }
-  }
+ 
