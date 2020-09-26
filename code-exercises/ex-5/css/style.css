@@ -62,14 +62,14 @@ p {
 .column{
   display: flex;
   flex-direction: row;
-  flex: 1 0 42%;
+  flex: 1;
   }
 .column1{
-  width: 40%;
+  width: calc(100% * (1/2) - 35px - 1px);
   }
 
 .column2{
-  width: 100%;
+  width: calc(100% * (1/2) - 35px - 1px);
   }
 
 .url{
