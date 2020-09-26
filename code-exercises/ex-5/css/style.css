@@ -65,7 +65,8 @@ p {
   justify-content: space-between;
   flex-direction: row;
 }
-.column .column1 .column2 .url .pnum{
+
+.column .column1 .column2 {
   flex: 1;
   width: 50%;
 }
@@ -77,7 +78,7 @@ p {
 @media (max-width: 400px) {
   .column {
     display: block;
-    .column1 .column2 .pnum .url{
+    .column1 .column2{
       width: 100%;
       margin: 0 0 30px 0;
     }
@@ -89,4 +90,26 @@ p {
       flex-direction: column;
   }
   }
- 
+ .footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.footer .url .pnum {
+  flex: 1;
+  width: 50%;
+}
+
+.pnum{
+  align-items: right;
+}
+
+@media (max-width: 400px) {
+  .footer {
+    display: block;
+    .url .pnum{
+      width: 100%;
+      margin: 0 0 30px 0;
+    }
+  
