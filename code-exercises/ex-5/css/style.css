@@ -39,10 +39,11 @@ p {
   justify-content: center;
   align-content: center;
   flex-direction: column;
+  max-width: 684px;
   }
 
 .img {
-    align-content: left;
+  align-content: left;
   min-width: 684px;
 }
 
