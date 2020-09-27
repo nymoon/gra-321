@@ -42,6 +42,8 @@ p {
   }
 
 .img {
+  width:100%;
+  height: 100%;
   align-content: left;
 }
 
@@ -85,6 +87,7 @@ p {
       flex-direction: column;
   }
   }
+
  .footer {
   display: flex;
   justify-content: space-between;
