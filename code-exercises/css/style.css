@@ -32,14 +32,6 @@ a:hover {
   margin-left: 50px;
 }
 
-.layout{
-  height: 540px;
-  width: 960px;
-}
-.mockups{
-  height: 840px;
-  width: 320px;
-}
 .override {
   margin-top: none;
   background: white;
