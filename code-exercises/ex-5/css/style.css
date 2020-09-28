@@ -10,18 +10,18 @@ h1 {
   font-family: neue haas grotesk, arial, sans-serif;
   font-weight: bold;
   font-size: 28px;
-  font color: black;
+  color: black;
 }
 
 h2 {
   font-family: Bodoni MT, Times New Roman,serif; 
   font-weight: medium;
-  font size: 10px;
-  font color: black;
+  font size: 16px;
+  color: black;
   line-height: 30px;
   }
 
-h3{
+h3 {
   font-family: Arial;
   font-size: 15px;
   color: black;
@@ -31,31 +31,37 @@ h3{
 p {
   font-family: arial;
   font-size: 15px;
-  font color: black
-  line-height: 17px
+  font color: black;
+  line-height: 17px;
 }
 .flexbox-container{
   display: flex;
   justify-content: center;
   align-content: center;
   flex-direction: column;
-  }
-
-.img {
-  width:50%;
-  height: 50%;
-  align-content: center;
-}
-
-.h1 {
   width: 100%;
-  padding-top: 17.5px;
+  background-color: lightblue;
   }
 
-.h2{
-  width: 80%;
+.flexbox-container img {
+  width: 100%;
+  position: relative;
+  
+ }
+
+.header {
+  width: 60%;
   padding-top: 17.5px;
-  padding-bottom: 17.5px;
+  margin-bottom: 0;
+  
+  }
+
+.h2 h2{
+  width: 80%;
+  margin-top: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
 }
 
 
@@ -65,22 +71,12 @@ p {
   flex-direction: row;
   }
 
-.column .column1 .column2 {
+.column1, .column2 {
   flex: 1;
-  width: 100%;
-  margin-left: 35px;
+  width: 40%;
+  display: inline-flex;
   }
 
-
-@media (max-width: 400px) {
-  .column {
-    display: block;
-    .column1 .column2{
-      width: 100%;
-      margin: 0 0 30px 0;
-    }
-  }
-}
 
 @media screen and (max-width: 320px) {
   .flexbox-container, .column{
@@ -96,7 +92,7 @@ p {
 
 .footer .url .pnum {
   flex: 1;
-  width:calc(100% * (1/2) - 200px - 1px) ;
+  width: calc(100% * (1/2) - 200px - 1px) ;
 }
 
 .pnum{
