@@ -1,8 +1,18 @@
-body{
+body {
   width: 320px;
-  margin-left: 32px;
-  margin-right: 90px;
+  margin: 0;
 }
+
+p{
+  background-color: black;
+  color: white;
+  font-family: proxima-soft, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 10px;
+ }
+ 
 header {
   font-family: proxima-soft, sans-serif;
   font-weight: 300;
@@ -10,12 +20,9 @@ header {
   font-size: 20px;
   line-height: 20px;
   color: #707070;
-  display: flex;
-  align-content: right;
-  justify-content: right;
-  margin-left: 239px;
 }
-a.link{
+
+a.link {
   color: #707070;
   background-color: transparent;
   text-decoration: none;
@@ -28,14 +35,6 @@ a.link{
   font-size: 16px;
   line-height: 21px;
   color: #707070;
-  display: flex;
-  justify-content: center;
-  align-content: left;
-  flex-direction: column;
-  margin-left: 22px;
-  margin-right: 3px;
-  width: 100%;
-  padding: 0px;
   }
 
 div {
@@ -45,7 +44,7 @@ div {
   font-size: 16px;
   line-height: 21px;
   color: #707070;
-  margin-left: 22px;
+  
 }
 
 h1 {
@@ -54,30 +53,40 @@ h1 {
   font-style: normal;
   font-size: 20px;
   line-height: 20px;
+  padding-left: 10px;
   color: #707070;
-  }
+}
 
-.flex{
+.flex {
   display: flex;
   justify-content: center;
   align-content: left;
   flex-direction: column;
-  padding-left: 10px;
-  width: 100%;
   font-size: 14px;
   line-height: 16px;
-  }
+}
 
 .nav {
   display: flex;
+  flex-grow: 0;
+  justify-content: left;
+  width: 320px;
+  margin: 0;
+  align-items: center;
+  align-content: center;
+ }
+
+.column {
+  flex: 1;
   align-content: left;
 }
-
-.navmenu{
-  flex: 30%;
+.button {
+  background-color: black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+   
 }
-.navphoto{
-  flex: 70%;
-}
-
- 
