@@ -1,0 +1,80 @@
+body{
+  width: 320px;
+}
+header {
+  font-family: proxima-soft, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 20px;
+  color: #707070;
+  display: flex;
+  align-content: right;
+  justify-content: right;
+  margin-left: 239px;
+}
+a.link{
+  color: #707070;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.menu {
+  font-family: proxima-soft, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #707070;
+  display: flex;
+  justify-content: center;
+  align-content: left;
+  flex-direction: column;
+  margin-left: 54px;
+  margin-right: 93px;
+  width: 100%;
+  padding: 0px;
+  }
+
+div {
+  font-family: proxima-soft, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #707070;
+  margin-left: 56px;
+}
+
+h1 {
+  font-family: proxima-soft, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 20px;
+  color: #707070;
+  }
+.flex{
+  display: flex;
+  justify-content: center;
+  align-content: left;
+  flex-direction: column;
+  padding-left: 10px;
+  width: 100%;
+  font-size: 14px;
+  line-height: 16px;
+  }
+
+.nav {
+  flex: 0 0 100%;
+  width: 320px;
+  height: 197px;
+  color: #707070;
+}
+
+.navmenu, .navphoto{
+  flex: 0 0 50%;
+  width: 50%;
+}
+
+ 
