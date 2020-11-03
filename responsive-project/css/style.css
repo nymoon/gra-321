@@ -57,13 +57,10 @@ h1 {
 
 .nav {
   flex: 0 0 100%;
-  width: 320px;
-  height: 197px;
   color: #707070;
 }
 
 .navmenu, .navphoto{
-  flex: 0 0 50%;
   width: 50%;
 }
 
