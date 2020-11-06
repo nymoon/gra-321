@@ -6,6 +6,7 @@
    line-height: 21px;
    color: #707070;
    list-style-type: none;
+  margin-left:-10px;
     }
 
  .menu-item-row ul {
@@ -86,11 +87,6 @@
   padding: 10px;
  }
  
-#cold-drinks {
-  color: #707070;
-  background-color: transparent;
-  text-decoration: none;
-}
 .nav {
   display: flex;
   flex-grow: 0;
@@ -98,6 +94,7 @@
   margin: 0;
   align-items: center;
   align-content: center;
+ color: #707070
  }
 
 .column {
