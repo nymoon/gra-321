@@ -6,8 +6,7 @@
    line-height: 21px;
    color: #707070;
    list-style-type: none;
-   margin-left: -10px;
- }
+    }
 
  .menu-item-row ul {
    width: 100%;
@@ -21,8 +20,7 @@
    line-height: 20px;
    padding-left: 40px;
    color: #707070;
-   margin-top: -10px;
- }
+   }
 
 
  h1 {
@@ -45,8 +43,6 @@
    color: #707070;
    padding-left: 30px;
    padding-right: 20px;
-   margin-top: -10px;
-   margin-bottom: -10px;
  }
 
  .description {
@@ -57,7 +53,6 @@
    line-height: 20px;
    padding-left: 40px;
    color: #707070;
-   margin-left: -9px;
  }
 
  #specials img {
