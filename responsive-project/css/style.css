@@ -1,4 +1,4 @@
- li {
+li {
    font-family: proxima-soft, sans-serif;
    font-weight: 300;
    font-style: normal;
@@ -9,7 +9,7 @@
   margin-left:-10px;
     }
 
- .menu-item-row ul {
+ .menu-item-row  {
    width: 100%;
  }
 
@@ -42,8 +42,6 @@
    font-size: 16px;
    line-height: 30px;
    color: #707070;
-   padding-left: 30px;
-   padding-right: 20px;
  }
 
  .description {
@@ -111,7 +109,7 @@
   font-size: 16px;
 }
  
- @media only screen and (min-width: 400) {
+ @media only screen and (min-width: 400px) {
 
    li,
    ul,
@@ -147,10 +145,11 @@
    .hot-drinks {
      width: 85%;
      margin: 0 auto;
+     display:flex;
    }
 
    .menu-item-row {
-     width: 100%;
+     width: 50%;
      display: flex;
      justify-content: space-between;
      align-items: flex-start;
@@ -162,16 +161,26 @@
    }
 
    .menu-item-row ul {
-     width: 60%;
+     width: 70%;
      list-style-type: none;
      float: right;
      text-align: right;
    }
 
    .menu-item-row ul li {
-     width: 30%;
-     display: inline-block;
+padding: 0px 10px; 
+
      list-style-type: none;
    }
+   
+   .left-column  { 
+   width: 40%;
+   }
+   
+     .left-column img  { 
+   width: 40%;
+   }
+   
+  
 
  }
