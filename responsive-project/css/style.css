@@ -75,6 +75,7 @@ li {
  #about img {
    width: 100%;
  }
+ 
  .banner{
   background-color: black;
   color: white;
@@ -99,6 +100,7 @@ li {
   flex: 1;
   align-content: left;
 }
+
 .button {
   background-color: black;
   color: white;
@@ -141,15 +143,13 @@ li {
      color: #724937;
    }
 
-   .iced-drinks,
-   .hot-drinks {
-     width: 85%;
-     margin: 0 auto;
-     display:flex;
-   }
+nav {
+  display:flex;
+  float: right;
+}
 
    .menu-item-row {
-     width: 50%;
+     width: 80%;
      display: flex;
      justify-content: space-between;
      align-items: flex-start;
@@ -161,20 +161,17 @@ li {
    }
 
    .menu-item-row ul {
-     width: 70%;
-     list-style-type: none;
-     float: right;
-     text-align: right;
-   }
+     width: 100%;
 
-   .menu-item-row ul li {
-padding: 0px 10px; 
-
-     list-style-type: none;
    }
-   
-   .left-column  { 
-   width: 40%;
+      .iced-drinks,
+   .hot-drinks {
+     width: 85%;
+     margin: 0 auto;
+     display:flex;
+   }
+   .description{
+     width: 80%;
    }
    
      .left-column img  { 
