@@ -6,11 +6,12 @@ li {
    line-height: 21px;
    color: #707070;
    list-style-type: none;
-  margin-left:-10px;
+ padding-left:-10px;
     }
 
  .menu-item-row  {
    width: 100%;
+   margin-left: 20px;
  }
 
  .tea-types {
@@ -19,7 +20,7 @@ li {
    font-weight: 300;
    font-size: 14px;
    line-height: 20px;
-   padding-left: 40px;
+   padding-left: 60px;
    color: #707070;
    }
 
@@ -42,6 +43,7 @@ li {
    font-size: 16px;
    line-height: 30px;
    color: #707070;
+   padding-left: 30px;
  }
 
  .description {
@@ -50,8 +52,8 @@ li {
    font-weight: 300;
    font-size: 14px;
    line-height: 20px;
-   padding-left: 40px;
    color: #707070;
+   padding-left: 30px;
  }
 
  #specials img {
@@ -123,7 +125,6 @@ li {
    body {
      width: 100%;
      margin: 30px;
-     padding: 0px;
    }
 
    section {
@@ -140,7 +141,7 @@ li {
    p,
    ul,
    li {
-     color: #724937;
+     color: #707070;
    }
 
 nav {
@@ -164,20 +165,27 @@ nav {
      width: 100%;
 
    }
-      .iced-drinks,
-   .hot-drinks {
-     width: 85%;
-     margin: 0 auto;
-     display:flex;
-   }
-   .description{
+   .drink-name  {
      width: 80%;
    }
-   
-     .left-column img  { 
-   width: 40%;
+
+   .description{
+     width: 80%;
+     margin-left: 10px;
    }
    
-  
+   .left-column{
+     width: 40%;
+   }
+   .left-column img  { 
+   width: 100%;
+   }  
+   .banner{
+     width: 80%;
+   }
+   .button {
+     float: right;
+     margin-right: 20px;
+   }
 
  }
