@@ -110,7 +110,6 @@ li {
   flex: 1;
   align-content: left;
    float-content: right;
-   width: 150px;
 }
 
 .button {
@@ -165,14 +164,11 @@ nav {
   float: right;
 }
         .column {
-       width: 250px;
-           align-content: right;
+       margin-left: auto;
+           margin-right: 0;
     }
     
-.logo{
-   width: 250px;
-    }
-   
+  
    .menu-item-row {
      width: 80%;
      display: flex;
