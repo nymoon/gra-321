@@ -143,9 +143,6 @@ li {
    margin: none;
     }
     
-    .column {
-       width: 150px;
-    }
    section {
      width: 100%;
      margin: 0 auto;
@@ -167,7 +164,15 @@ nav {
   display:flex;
   float: right;
 }
-
+        .column {
+       width: 150px;
+           align-content: right;
+    }
+    
+.logo{
+   width: 150px;
+    }
+   
    .menu-item-row {
      width: 80%;
      display: flex;
