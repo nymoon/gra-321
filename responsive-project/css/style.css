@@ -143,6 +143,9 @@ li {
    margin: none;
     }
     
+    .column {
+       width: 150px;
+    }
    section {
      width: 100%;
      margin: 0 auto;
