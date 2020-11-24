@@ -105,8 +105,7 @@ li {
         .column {
        display: flex;
            justify-content: flex-end;
-           margin-right: 100px;
-    }
+             }
 
 .button {
   background-color: black;
