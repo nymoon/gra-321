@@ -13,6 +13,13 @@ li {
    width: 100%;
    margin-left: 20px;
  }
+.left-column {
+   width: 100%
+}
+.left-column img {
+   width: 100%;
+}
+
 
  .tea-types {
    width: 100%;
