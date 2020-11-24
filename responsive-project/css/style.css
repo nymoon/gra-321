@@ -110,6 +110,7 @@ li {
   flex: 1;
   align-content: left;
    float-content: right;
+   width: 150px;
 }
 
 .button {
