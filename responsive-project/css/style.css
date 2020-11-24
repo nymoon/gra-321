@@ -164,9 +164,8 @@ nav {
   float: right;
 }
         .column {
-       margin-left: auto;
-           margin-right: 0;
-           float-content: right;
+       display: flex;
+           justify-content: flex-end;
     }
     
   
