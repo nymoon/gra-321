@@ -94,7 +94,7 @@ li {
   line-height: 16px;
   padding-left: 10px;
     padding-right: 10px;
-    align-content: center;
+    text-align: center;
  }
  
 .nav {
@@ -206,7 +206,7 @@ nav {
    }  
    .banner{
      width: 100%;
-      align-content: center;
+      text-align: center;
    }
    .button {
      float: right;
