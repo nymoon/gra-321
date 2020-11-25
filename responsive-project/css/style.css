@@ -98,9 +98,12 @@ li {
  
 .nav {
   display: flex;
+  flex-grow: 0;
+  justify-content: left;
   margin: 0;
+  align-items: center;
+  align-content: center;
  color: #707070
-    width: 100%;
  }
 
         .column {
