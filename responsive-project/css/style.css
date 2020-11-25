@@ -106,11 +106,13 @@ li {
  color: #707070
  }
 
-        .column {
-       display: flex;
-           justify-content: flex-end;
-           margin-right: 50px;
-                        }
+.column {
+  flex: 1;
+  align-content: left;
+   float-content: right;
+   margin-left: 50px;
+margin-right 50px;
+}
 
 .button {
   background-color: black;
