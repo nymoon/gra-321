@@ -132,13 +132,10 @@ margin-right 50px;
      margin: 0;
      padding: 0;
    }
-body {
-   align: center;
-    }
     
    .bodymenu {
      width: 100%;
-     margin-left: 50px;
+     margin-left: 100px;
      margin-right: 50px;
    }
    
